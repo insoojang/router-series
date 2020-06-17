@@ -1,0 +1,43 @@
+{
+  "name": "nkia-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "story": "start-storybook -p 3000 -s ./public"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/preset-ant-design": "0.0.1",
+    "@storybook/preset-create-react-app": "^2.1.0",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.1.0",
+    "nock": "^10.0.6",
+    "node-sass": "4.12.0",
+    "path": "^0.12.7",
+    "store": "^2.0.12",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1",
+    "workbox-webpack-plugin": "^3.6.3"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-dom-factories": "^1.0.2",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-loadable": "^5.3.1"
+  }
+}
